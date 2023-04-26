@@ -13,9 +13,9 @@ function changeSlideTwo() {
   clearTimeout(timer2);
   disAppear();
 
-  const clickedElemnt = this;
+  const clickedElement = this;
 
-  let imageId = clickedElemnt.getAttribute('id');
+  let imageId = clickedElement.getAttribute('id');
   console.log(imageId);
 
   number = imageId - 1;

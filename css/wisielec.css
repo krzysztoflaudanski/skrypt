@@ -1,0 +1,83 @@
+#container {
+  margin: 0 auto;
+  font-size: 28px;
+  width: 900px;
+}
+
+#board {
+  width: 900px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 48px;
+  min-height: 60px;
+  letter-spacing: 5px;
+  font-family: "Inconsolata", monospace;
+}
+
+#gallows {
+  float: left;
+  width: 450px;
+  text-align: center;
+  min-height: 280px;
+}
+
+#alphabet {
+  float: left;
+  width: 450px;
+  text-align: center;
+  min-height: 280px;
+}
+
+.clear {
+  clear: both;
+}
+
+.letter {
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 5px;
+  margin: 5px;
+  border: 3px solid gray;
+  float: left;
+  cursor: pointer;
+  border-radius: 25%;
+  color: gray;
+}
+
+.letter:hover {
+  color: white;
+  border: 3px solid white;
+}
+
+.green, .green:hover {
+  color: green;
+  background: rgb(161, 224, 161);
+  border: 3px solid green;
+  cursor: default;
+}
+
+.red, .red:hover {
+  color: red;
+  background: rgb(243, 148, 153);
+  border: 3px solid red;
+  cursor: default;
+}
+
+.reset {
+  color: green;
+  cursor: pointer;
+  font-size: 48px;
+}
+
+.reset:hover, .reset2:hover {
+  color: white;
+}
+
+.reset2 {
+  color: red;
+  cursor: pointer;
+  font-size: 48px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvd2lzaWVsZWMuc2NzcyIsIndpc2llbGVjLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFDQTtFQUNFLGNBQUE7RUFDQSxlQUFBO0VBQ0EsWUFBQTtBQ0FGOztBRElBO0VBQ0UsWUFBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLGVBQUE7RUFDQSxnQkFBQTtFQUNBLG1CQUFBO0VBQ0EscUNBQUE7QUNERjs7QURJQTtFQUNFLFdBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxpQkFBQTtBQ0RGOztBRElBO0VBQ0UsV0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLGlCQUFBO0FDREY7O0FESUE7RUFDRyxXQUFBO0FDREg7O0FESUE7RUFDRSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGtCQUFBO0VBQ0EsWUFBQTtFQUNBLFdBQUE7RUFDQSxzQkFBQTtFQUNBLFdBQUE7RUFDQSxlQUFBO0VBQ0Esa0JBQUE7RUFDQSxXQUFBO0FDREY7O0FESUE7RUFDRSxZQUFBO0VBQ0EsdUJBQUE7QUNERjs7QURJQTtFQUNFLFlBQUE7RUFDQSw4QkFBQTtFQUNBLHVCQUFBO0VBQ0EsZUFBQTtBQ0RGOztBRElBO0VBQ0UsVUFBQTtFQUNBLDhCQUFBO0VBQ0EscUJBQUE7RUFDQSxlQUFBO0FDREY7O0FESUE7RUFDRSxZQUFBO0VBQ0EsZUFBQTtFQUNBLGVBQUE7QUNERjs7QURJQTtFQUNFLFlBQUE7QUNERjs7QURJQTtFQUNFLFVBQUE7RUFDQSxlQUFBO0VBQ0EsZUFBQTtBQ0RGIiwiZmlsZSI6Indpc2llbGVjLmNzcyJ9 */
