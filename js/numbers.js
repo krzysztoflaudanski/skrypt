@@ -25,13 +25,13 @@ const checkTwo = function () {
   let napis = '';
   let i = '';
 
-  for (i = numberTwo; i <= numberThree; i++) {
+  for (i == numberTwo; i <= numberThree; i++) {
     console.log(i);
     napis = napis + i + ' ';
   }
   document.getElementById('result-two').innerHTML = napis;
 
-  for (i = numberThree; i <= numberTwo; i++) {
+  for (i == numberThree; i <= numberTwo; i++) {
     napis = i + ' ' + napis;
   }
   document.getElementById('result-two').innerHTML = napis;

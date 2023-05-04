@@ -30,10 +30,11 @@ function writePassword() {
   document.getElementById('board').innerHTML = password1;
 }
 
-const letter = [35];
+const letter = ['A', 'B'];
 
-letter[0] = 'A';
-letter[1] = 'Ą';
+
+//letter[0] = 'A';
+//letter[1] = 'Ą';
 letter[2] = 'B';
 letter[3] = 'C';
 letter[4] = 'Ć';
@@ -67,7 +68,8 @@ letter[31] = 'Y';
 letter[32] = 'Z';
 letter[33] = 'Ż';
 letter[34] = 'Ź';
-
+//letter.push('AD');
+console.log(letter);
 
 
 function generateAlphabet() {
