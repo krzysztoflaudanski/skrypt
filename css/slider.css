@@ -1,0 +1,16 @@
+.slider2 {
+  height: 1200px;
+  width: 2000px;
+}
+.slider2 img {
+  max-width: 100%;
+  max-height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+span {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc2xpZGVyLnNjc3MiLCJzbGlkZXIuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0UsY0FBQTtFQUNBLGFBQUE7QUNDRjtBREFFO0VBQ0UsZUFBQTtFQUNBLGdCQUFBO0VBQ0Esb0JBQUE7S0FBQSxpQkFBQTtBQ0VKOztBREVBO0VBQ0UsZUFBQTtBQ0NGIiwiZmlsZSI6InNsaWRlci5jc3MifQ== */

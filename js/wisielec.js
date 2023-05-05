@@ -30,11 +30,11 @@ function writePassword() {
   document.getElementById('board').innerHTML = password1;
 }
 
-const letter = ['A', 'B'];
+const letter = [];
 
 
-//letter[0] = 'A';
-//letter[1] = 'Ą';
+letter[0] = 'A';
+letter[1] = 'Ą';
 letter[2] = 'B';
 letter[3] = 'C';
 letter[4] = 'Ć';
@@ -95,7 +95,7 @@ String.prototype.setLetter = function (place, sign) {
 
 function checkLetter() {
   const clickedElement = this;
-
+console.log(clickedElement);
   const clickedLetters = clickedElement.getAttribute('id');
 
   const clickedLetter = clickedLetters.replace('lett', '');
@@ -115,6 +115,8 @@ function checkLetter() {
     document.getElementById(clickedLetters).classList.add('green');
 
     writePassword();
+    removeClickListenersToLetter2();
+
   }
   else {
     red.play();
@@ -153,6 +155,16 @@ addClickListenersToLetter();
 
 function removeClickListenersToLetter() {
   const clikedLetters = document.getElementsByClassName('red');
+
+  for (let clickedLetter of clikedLetters) {
+
+    clickedLetter.removeEventListener('click', checkLetter);
+
+  }
+}
+
+function removeClickListenersToLetter2() {
+  const clikedLetters = document.getElementsByClassName('green');
 
   for (let clickedLetter of clikedLetters) {
 

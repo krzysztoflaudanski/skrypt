@@ -1,0 +1,91 @@
+$font-one: 'Lobster', cursive;
+
+$color-zero: #26282e;
+$color-one: #209781;
+$color-two: #e9b64a;
+$color-three: #51c8b2;
+
+
+body {
+  margin: 0;
+  color: $color-one;
+  font-size: 28px;
+  font-family: $font-one;
+  background-color: $color-zero;
+}
+
+a:link {
+    color: $color-one;
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: $color-one;
+  }
+
+  a:active {
+    color: $color-one;
+  }
+
+  a:hover {
+    color: $color-two;
+  }
+
+
+h1 {
+  font-size: 64px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: 5px;
+  margin: 20px 0 0;
+}
+
+p {
+  text-align: center;
+  margin-top: 5px;
+  margin: 0 20px;
+  letter-spacing: 2px;
+}
+
+.board {
+  width: 600px;
+margin: 0 auto;
+text-align: center;
+}
+
+.card {
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  margin: 3px;
+  background-image: url("/images/gwent/karta.png");
+  border: 4px solid $color-three;
+  border-radius: 4px;
+  cursor: pointer;
+  filter: brightness(70%);
+  transition: all .3s ease-in-out;
+}
+
+.cardA {
+  width: 125px;
+  height: 125px;
+  display: inline-block;
+  margin: 3px;
+  background-image: url("/images/gwent/karta.png");
+  border: 4px solid $color-three;
+  border-radius: 4px;
+  cursor: pointer;
+  filter: brightness(70%);
+  transition: all .3s ease-in-out;
+}
+
+.card:hover {
+  border: 4px solid $color-two;
+  filter: brightness(100%);
+}
+
+.score {
+  margin-top: 5px;
+  letter-spacing: 2px;
+}
+
