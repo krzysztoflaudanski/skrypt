@@ -23,22 +23,27 @@ const checkTwo = function () {
   let numberThree = document.getElementById('number-three').value;
   console.log(numberThree);
   let napis = '';
+
+  numberTwo = parseInt(numberTwo);
+  numberThree = parseInt(numberThree);
+
+
   let i = '';
 
-  for (i == numberTwo; i <= numberThree; i++) {
+
+  for (i = numberTwo; i <= numberThree; i++) {
     console.log(i);
     napis = napis + i + ' ';
   }
   document.getElementById('result-two').innerHTML = napis;
 
-  for (i == numberThree; i <= numberTwo; i++) {
+
+  for (i = numberThree; i <= numberTwo; i++) {
     napis = i + ' ' + napis;
   }
   document.getElementById('result-two').innerHTML = napis;
 
   if (numberTwo == numberThree) document.getElementById('result-two').innerHTML = 'duce';
   console.log(napis);
+
 };
-
-
-
