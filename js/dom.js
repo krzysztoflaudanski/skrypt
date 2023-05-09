@@ -79,7 +79,7 @@ addListenersToButtonsOdd();
 function addListenersToButtonsEven() {
 
   //let buttonsEven = document.getElementsByClassName('even_but');
-  //Dlaczego to nie działa?
+  //Dlaczego to nie działa? pętla forEach zadziała tylko z querySelectorem
   let buttonsEven = document.querySelectorAll('.even_but');
 
   //console.log(buttonsEven);
@@ -149,12 +149,14 @@ function colorsEven(col) {
 }
 
 
-function colorPhi(x) {
+function colorPhi (x) {
 
   let phis = document.querySelectorAll('#fi span');
+
   let ile = document.querySelector('#ile').value;
   ile = parseInt(ile);
   console.log(ile);
+
   for (let i = 0; i <= ile; i++) {
     phis[i].style.cssText = 'color: ' + x + ';';
 

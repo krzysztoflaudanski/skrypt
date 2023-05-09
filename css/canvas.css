@@ -1,0 +1,59 @@
+body {
+  background-color: #111;
+  color: #efefef;
+}
+
+h1 {
+  font-size: 54px;
+  color: orange;
+  margin: 25px 0;
+  text-align: center;
+  letter-spacing: 16px;
+  text-transform: uppercase;
+}
+
+.board {
+  width: 800px;
+  height: 480px;
+  margin: 20px auto;
+}
+
+#game_canvas {
+  background-color: black;
+  width: 800px;
+  height: 480px;
+  border: 2px solid orange;
+}
+
+.comment {
+  margin: 25px auto;
+  width: 800px;
+  text-align: center;
+  font-size: 24px;
+  color: orange;
+}
+
+.controls {
+  margin: 0 auto;
+  width: 650px;
+  text-align: center;
+  clear: both;
+}
+
+.controls button {
+  cursor: pointer;
+  width: 60px;
+  height: 60px;
+  margin: 5px 5px;
+  border: 1px solid black;
+  font-size: 14px;
+  float: left;
+}
+
+.controls #delete {
+  background-color: #111;
+  color: #666;
+  border: 1px solid #666;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3MvY2FudmFzLnNjc3MiLCJjYW52YXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBO0VBQ0Msc0JBQUE7RUFDQSxjQUFBO0FDQ0Q7O0FERUE7RUFDQyxlQUFBO0VBQ0EsYUFBQTtFQUNBLGNBQUE7RUFDQSxrQkFBQTtFQUNBLG9CQUFBO0VBQ0EseUJBQUE7QUNDRDs7QURFQTtFQUNDLFlBQUE7RUFDQSxhQUFBO0VBQ0EsaUJBQUE7QUNDRDs7QURFQTtFQUNDLHVCQUFBO0VBQ0EsWUFBQTtFQUNBLGFBQUE7RUFDQSx3QkFBQTtBQ0NEOztBREVBO0VBRUMsaUJBQUE7RUFDQSxZQUFBO0VBQ0Esa0JBQUE7RUFDQSxlQUFBO0VBQ0EsYUFBQTtBQ0FEOztBREdBO0VBRUMsY0FBQTtFQUNBLFlBQUE7RUFDQSxrQkFBQTtFQUNBLFdBQUE7QUNERDs7QURJQTtFQUNDLGVBQUE7RUFDQSxXQUFBO0VBQ0EsWUFBQTtFQUNBLGVBQUE7RUFDQSx1QkFBQTtFQUNBLGVBQUE7RUFDQSxXQUFBO0FDREQ7O0FESUE7RUFDQyxzQkFBQTtFQUNBLFdBQUE7RUFDQSxzQkFBQTtBQ0REIiwiZmlsZSI6ImNhbnZhcy5jc3MifQ== */
